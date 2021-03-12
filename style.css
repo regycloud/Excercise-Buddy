@@ -1,0 +1,12 @@
+body {
+    background-color: #eeeded;
+}
+
+h1 {
+    font-family: 'Friday Night Lights';
+    src: url('/font/FridayNightLights.woff2') format('woff2'),
+        url('/font/FridayNightLights.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}

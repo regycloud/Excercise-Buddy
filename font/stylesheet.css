@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Friday Night Lights';
+    src: url('FridayNightLights.woff2') format('woff2'),
+        url('FridayNightLights.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: #eeeded;
+}
+
+h1 {
+    padding-top: 5vh;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+}
+
+.container {
+    align-items: center;
+    margin: 2em;
+    padding: 20px;
+    margin-left: 25%;
+    margin-right: 20%;
+}
+
+img {
+    display: block;
+    margin-top: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-height: 30px;
+  }
+  
+label {
+padding: 12px 12px 12px 0;
+display: inline-block;
+}
+
+
+.col-25 {
+float: left;
+width: 25%;
+margin-top: 6px;
+}
+
+.col-75 {
+float: left;
+width: 75%;
+margin: auto;
+padding: 15px 0;
+
+}
+
+.row {
+    padding: 10px;
+    padding-right: 30px;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+h2 {
+    text-align: center;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+}
+
+form {
+    background-color: bisque;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+
+.center {
+    margin: 0;
+    text-align: center;
+    display: block;
+}
+
+.go {
+    max-width: 50px;
+    float: right;
+    margin: 0;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
